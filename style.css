@@ -1,12 +1,16 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0px;
+    font-family: Verdana, Geneva, sans-serif;
 }
+
 p {
     margin: 0;
 }
+
+
 
 
 .header-bar {
@@ -155,19 +159,21 @@ p {
 
     .sign-up {
         display: flex;
+        height: 300px;
+        color: #e5e7eb;
         justify-content: center;
         align-items: center;
-        height: 300px;
-        font-size: 18px;
-        color: #e5e7eb;
     }
     .blue-box {
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
         background-color: #3882F6;
+        height: 50px;
         padding: 40px 150px;
+        font-size: 18px;
         border-radius: 8px;
+        gap: 100px;
     }
         .textforsign {
             flex-grow: 2;
@@ -177,12 +183,22 @@ p {
                 font-weight: bolder;
             }
             .signtxt {
-                font-size:10px;
+                font-size:14px;
             }
         .sign-button {
             flex-grow: 1;
+            padding: 4px 25px;
             border: 2px solid ;
             border-radius: 8px;
+        }
+        input {
+            background: transparent;
+            border-style: none;
+            color: #F9FAF8;
+            font-size: inherit;
+            font-weight: bolder;
+            cursor: pointer;
+            
         }
 
 .footer-bar {
